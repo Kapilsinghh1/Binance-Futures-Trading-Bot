@@ -15,18 +15,20 @@ The bot allows users to place MARKET and LIMIT orders through a command-line int
 
 ## Project Structure
 
-trading_bot
-│                                          
-├── bot
-│   ├── client.py
-│   ├── orders.py
-│   ├── validators.py
-│   ├── logging_config.py
-│   └── cli.py
+trading_bot/
 │
-├── logs
+├── bot/
+│ ├── client.py
+│ ├── orders.py
+│ ├── validators.py
+│ ├── logging_config.py
+│ └── cli.py
+│
+├── logs/
+│ └── trading_bot.log
+│
 ├── .env
-├── requirements.txt
+├── requirement.txt
 └── README.md
 
 ## Setup Instructions
